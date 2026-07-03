@@ -1,0 +1,39 @@
+# Local WordPress configuration and environment files
+wp-config.php
+local-*.php
+.env
+.env.*
+
+# WordPress-generated content
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup*/
+wp-content/backups*/
+wp-content/blogs.dir/
+
+# Drop-ins and local maintenance files
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/db.php
+wp-content/debug.log
+.maintenance
+
+# Dependency and build output
+node_modules/
+vendor/
+dist/
+build/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local by Flywheel / Local app files
+app/sql/
+conf/
+logs/
