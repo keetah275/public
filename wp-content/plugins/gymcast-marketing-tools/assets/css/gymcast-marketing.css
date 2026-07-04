@@ -1,0 +1,159 @@
+.gc-resource-article {
+	max-width: 760px;
+	margin-inline: auto;
+	padding-inline: 1rem;
+}
+
+.gc-resource-article > * + * {
+	margin-block-start: 1.4rem;
+}
+
+.gc-article-intro {
+	margin-block-end: 2rem;
+}
+
+.gc-kicker {
+	margin-block-end: 0.5rem;
+	font-size: 0.78rem;
+	font-weight: 700;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	color: #3a6b58;
+}
+
+.gc-standfirst {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.72);
+}
+
+.gc-resource-article h1,
+.gc-resource-article h2,
+.gc-resource-article h3 {
+	line-height: 1.18;
+}
+
+.gc-resource-article h1 {
+	margin-block: 0.25rem 1rem;
+}
+
+.gc-resource-article h2 {
+	margin-block-start: 2.4rem;
+}
+
+.gc-resource-article h3 {
+	margin-block-start: 1.5rem;
+}
+
+.gc-resource-article p,
+.gc-resource-article li {
+	line-height: 1.68;
+}
+
+.gc-guide-meta,
+.gc-toc,
+.gc-related-guides,
+.gc-article-cta,
+.gc-faq {
+	margin-block: 2rem;
+	padding: 1.5rem;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 12px;
+	background: rgba(0, 0, 0, 0.025);
+}
+
+.gc-guide-meta ul,
+.gc-toc ul,
+.gc-related-guides ul {
+	margin-block: 0;
+	padding-inline-start: 1.25rem;
+}
+
+.gc-guide-meta li + li,
+.gc-toc li + li,
+.gc-related-guides li + li {
+	margin-block-start: 0.45rem;
+}
+
+.gc-faq h2,
+.gc-related-guides h2,
+.gc-article-cta h2,
+.gc-toc h2 {
+	margin-block-start: 0;
+}
+
+.gc-faq h3 {
+	margin-block-end: 0.35rem;
+	font-size: 1.08rem;
+}
+
+.gc-faq h3 + p {
+	margin-block-start: 0;
+}
+
+.gc-article-cta {
+	background: #f4f8f6;
+	border-color: rgba(58, 107, 88, 0.22);
+}
+
+.gc-article-cta .wp-block-buttons {
+	margin-block-start: 1rem;
+}
+
+.gc-related-guides a {
+	text-underline-offset: 0.16em;
+}
+
+.gc-comparison-table {
+	margin-block: 2rem;
+}
+
+.gc-comparison-table .wp-block-table {
+	overflow-x: auto;
+}
+
+.gc-comparison-table table {
+	width: 100%;
+	min-width: 680px;
+	border-collapse: collapse;
+}
+
+.gc-comparison-table th,
+.gc-comparison-table td {
+	padding: 0.85rem;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	text-align: left;
+	vertical-align: top;
+}
+
+.gc-comparison-table th {
+	background: rgba(0, 0, 0, 0.04);
+	font-weight: 700;
+}
+
+.gc-comparison-table td {
+	line-height: 1.55;
+}
+
+.editor-styles-wrapper .gc-resource-article {
+	max-width: 760px;
+}
+
+@media (max-width: 640px) {
+	.gc-resource-article {
+		padding-inline: 0.75rem;
+	}
+
+	.gc-guide-meta,
+	.gc-toc,
+	.gc-related-guides,
+	.gc-article-cta,
+	.gc-faq {
+		padding: 1.1rem;
+		border-radius: 10px;
+	}
+
+	.gc-standfirst {
+		font-size: 1.1rem;
+	}
+}
