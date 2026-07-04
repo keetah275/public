@@ -247,7 +247,7 @@ Gymcast helps gyms automatically display the right class on the right screen at 
 Default button URL:
 
 ```text
-/demo/
+/book-demo/
 ```
 
 ### 4. FAQ Section

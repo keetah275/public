@@ -267,7 +267,7 @@ function gymcast_marketing_tools_get_article_cta_pattern() {
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/demo/">Book a Demo</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/book-demo/">Book a Demo</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->';
