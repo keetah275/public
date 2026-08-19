@@ -91,6 +91,18 @@
 	margin-block-start: 0;
 }
 
+.gc-faq-answer > :first-child {
+	margin-block-start: 0;
+}
+
+.gc-faq-selection {
+	display: flex;
+	gap: 0.75rem;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-block-start: 0.75rem;
+}
+
 .gc-article-cta {
 	background: #f4f8f6;
 	border-color: rgba(58, 107, 88, 0.22);
@@ -102,6 +114,26 @@
 
 .gc-related-guides a {
 	text-underline-offset: 0.16em;
+}
+
+.gc-toc a {
+	text-underline-offset: 0.16em;
+}
+
+.editor-styles-wrapper .gc-add-section-button {
+	margin-block-start: 1rem;
+}
+
+.gc-related-guides-selection {
+	display: flex;
+	gap: 0.75rem;
+	align-items: center;
+	justify-content: space-between;
+	margin-block-start: 0.75rem;
+}
+
+.gc-main-content {
+	margin-block: 0;
 }
 
 .gc-comparison-table {

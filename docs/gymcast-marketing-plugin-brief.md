@@ -136,15 +136,20 @@ Article intro
   Standfirst
   Guide metadata box
 
-Contents section
+Automatic contents section
 
-Main article sections
+Main Article Content group (freely editable; add, remove, duplicate, or reorder H2 sections)
   H2: Why this matters
   H2: Option 1
   H2: Option 2
   H2: Option 3
   H2: When dedicated software makes sense
   H2: Which option is right for your gym?
+
+The contents section is generated from H2 headings in the Main Article Content
+group. It must update when headings are added, renamed, removed, or reordered,
+and must link to unique heading anchors. Headings in the FAQ, related guides,
+and final CTA are excluded.
 
 FAQ section
 
@@ -201,22 +206,40 @@ Purpose:
 
 A reusable section for internal linking between resource articles.
 
-Default content:
+The section uses the dynamic `gymcast/related-guides` block and displays up to
+three published Guide posts in this order:
+
+1. Manually selected guides.
+2. Guides ranked by the number of tags shared with the current post.
+
+The current article is always excluded. If neither manual choices nor shared-tag
+matches exist, the section is not rendered. Resource Guide posts are automatically
+assigned to both categories in the following hierarchy, which the plugin creates
+when necessary:
 
 ```text
-Related Guides
-- Portrait vs Landscape TVs for Gyms
-- Best TV Size for a Gym
-- Digital Signage for Gyms
+Resources
+└── Guide
 ```
 
-Use placeholder URLs for now, for example:
+### Dynamic FAQ Section
+
+Block slug:
 
 ```text
-/resources/portrait-vs-landscape-gym-tv/
-/resources/best-tv-size-for-gym/
-/resources/gym-digital-signage/
+gymcast/faq-section
 ```
+
+FAQ posts use the `faq` category. The post title is rendered as the question and
+the post body as the answer. The block displays up to four FAQs in this order:
+
+1. Manually selected FAQs, in the editor-defined order.
+2. FAQ posts ranked by tags shared with the current resource article, when
+   automatic matching is enabled.
+
+The current post is excluded and the entire FAQ section is omitted when no
+manual or shared-tag matches exist. The plugin creates the FAQ category when it
+does not already exist.
 
 ### 3. Article CTA
 

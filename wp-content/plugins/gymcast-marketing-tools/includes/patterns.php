@@ -111,105 +111,77 @@ function gymcast_marketing_tools_get_resource_guide_pattern() {
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"gc-standfirst"} -->
-<p class="gc-standfirst">Use this guide to compare practical ways to show workouts, timetables, class names, and member information across your gym TVs.</p>
+<p class="gc-standfirst">Placeholder introduction — replace this with a short summary of the article.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"gc-guide-meta","layout":{"type":"constrained"}} -->
 <div class="wp-block-group gc-guide-meta"><!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li><strong>Best for:</strong> Gym owners and operators planning TV displays</li>
+<li><strong>Best for:</strong> Replace with the intended audience</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Reading time:</strong> 6 minutes</li>
+<li><strong>Reading time:</strong> Replace with estimated reading time</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Last updated:</strong> Replace with current month and year</li>
+<li><strong>Last updated:</strong> Replace with month and year</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"gc-toc","layout":{"type":"constrained"}} -->
-<div class="wp-block-group gc-toc"><!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Contents</h2>
+<!-- wp:gymcast/table-of-contents /-->
+
+<!-- wp:group {"className":"gc-main-content","metadata":{"name":"Main Article Content"},"templateLock":false,"layout":{"type":"constrained"}} -->
+<div class="wp-block-group gc-main-content"><!-- wp:heading -->
+<h2 class="wp-block-heading">Placeholder H2 section 1</h2>
 <!-- /wp:heading -->
 
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li>Why this matters</li>
-<!-- /wp:list-item -->
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace this paragraph with your article content.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:list-item -->
-<li>Option 1</li>
-<!-- /wp:list-item -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Placeholder H2 section 2</h2>
+<!-- /wp:heading -->
 
-<!-- wp:list-item -->
-<li>Option 2</li>
-<!-- /wp:list-item -->
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace this paragraph with your article content.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:list-item -->
-<li>Option 3</li>
-<!-- /wp:list-item -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Placeholder H2 section 3</h2>
+<!-- /wp:heading -->
 
-<!-- wp:list-item -->
-<li>When dedicated software makes sense</li>
-<!-- /wp:list-item -->
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace this paragraph with your article content.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:list-item -->
-<li>Which option is right for your gym?</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Placeholder H2 section 4</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace this paragraph with your article content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Placeholder H2 section 5</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace this paragraph with your article content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Placeholder H2 section 6</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace this paragraph with your article content.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Why this matters</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Gym TV displays are often one of the first things members notice when they walk into a training space. A clear setup helps members understand what is happening now, where they need to be, and what is coming next.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Option 1</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Describe the simplest setup, when it works well, and where it starts to become awkward for a busy gym.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Option 2</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Explain the middle-ground option. Include the operational tradeoffs for updating screens, keeping content accurate, and managing multiple rooms.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Option 3</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Cover the more advanced setup. Focus on what the gym gains, what it needs to maintain, and who this approach is best suited for.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">When dedicated software makes sense</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Dedicated gym display software starts to make sense when staff are updating several screens manually, classes change often, or each area of the gym needs different content at different times.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Which option is right for your gym?</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Summarise the decision in practical terms. Help readers match the setup to their gym size, number of displays, timetable complexity, and available staff time.</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:separator -->
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
@@ -229,25 +201,7 @@ function gymcast_marketing_tools_get_resource_guide_pattern() {
  * @return string
  */
 function gymcast_marketing_tools_get_related_guides_pattern() {
-	return '<!-- wp:group {"className":"gc-related-guides","layout":{"type":"constrained"}} -->
-<div class="wp-block-group gc-related-guides"><!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Related Guides</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><a href="/resources/portrait-vs-landscape-gym-tv/">Portrait vs Landscape TVs for Gyms</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a href="/resources/best-tv-size-for-gym/">Best TV Size for a Gym</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a href="/resources/gym-digital-signage/">Digital Signage for Gyms</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:group -->';
+	return '<!-- wp:gymcast/related-guides /-->';
 }
 
 /**
@@ -279,43 +233,7 @@ function gymcast_marketing_tools_get_article_cta_pattern() {
  * @return string
  */
 function gymcast_marketing_tools_get_faq_section_pattern() {
-	return '<!-- wp:group {"className":"gc-faq","layout":{"type":"constrained"}} -->
-<div class="wp-block-group gc-faq"><!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Frequently Asked Questions</h2>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Can I display gym workouts on any Smart TV?</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>In many cases, yes. The best setup depends on the TV model, browser support, network reliability, and how you want to control what appears on each screen.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Do I need a laptop connected to the TV?</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>No, not always. A laptop can work for a simple setup, but many gyms prefer a cleaner arrangement using a Smart TV, small media device, or dedicated display software.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Is portrait or landscape better for gym workout displays?</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Landscape is usually easier for timetables and class information, while portrait can work well for workout stations, narrow walls, and single-focus content.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What is the easiest way to manage multiple gym TVs?</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The easiest option is usually a central system that lets staff schedule content once and send the right display to each screen automatically.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->';
+	return '<!-- wp:gymcast/faq-section /-->';
 }
 
 /**
