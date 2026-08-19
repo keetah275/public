@@ -24,7 +24,24 @@ The article must be useful without requiring the reader to buy Gymcast. It shoul
 
 ## Audience
 
-Write primarily for busy gym owners and operators. Assume the reader understands how their gym runs but may not understand digital signage or display technology.
+Write primarily for busy gym owners and operators. The reader is perfectly capable of using technology, but they do not work in technology. Never talk down to them and never assume they use technical vocabulary.
+
+Assume the reader knows how to:
+
+- Use their phone.
+- Create a slide or presentation.
+- Put a file onto a USB stick and plug it into a TV.
+- Open and use Netflix or another app on a Smart TV.
+
+Do not assume the reader knows:
+
+- That the app used to open websites is called a browser.
+- What terms such as file format or file type mean.
+- The difference between casting and mirroring.
+- What cloud storage means or how it works.
+- Why a Smart TV cannot normally open a PowerPoint file directly.
+
+Use the actions above as familiar points of reference. For example, say “open the website using the internet app on your TV” before introducing the word “browser”. Explain “cloud storage” as “files stored online so you can open them from different devices”.
 
 The reader usually wants to know:
 
@@ -40,7 +57,12 @@ The reader usually wants to know:
 - Sound informed, calm, and helpful rather than promotional.
 - Address the reader as “you” and refer to “your gym” where natural.
 - Prefer short sentences, short paragraphs, and concrete examples.
-- Explain technical terms on first use.
+- Prefer everyday words: use “show”, “send”, “open”, “save”, “screen”, and “internet connection” when they communicate the meaning accurately.
+- Describe what the reader needs to do before naming the technology involved.
+- Explain every necessary technical term in plain language on first use. Do not introduce a technical term when the reader can complete the task without it.
+- When two similar terms matter, explain the visible difference. For example: “Mirroring shows everything from your phone on the TV. Casting sends one video or app to the TV, so you can continue using your phone.”
+- Explain device limitations rather than presenting them as obvious. For example, a Smart TV may have apps but usually does not include the Microsoft software needed to open a PowerPoint file.
+- Use familiar comparisons only when they make an instruction clearer, such as comparing a TV app with opening Netflix.
 - Focus on operational consequences: staff time, reliability, scheduling, screen locations, and ease of updating content.
 - Make recommendations conditional on the reader's circumstances.
 - Give the direct answer early, then explain the reasoning.
@@ -53,6 +75,9 @@ Avoid:
 - Unsupported superlatives such as “best”, “leading”, or “perfect”.
 - Presenting Gymcast as the answer before explaining the reader's needs.
 - Repeating the same keyword unnaturally.
+- Unexplained terms such as browser, file format, casting, mirroring, cloud storage, HDMI input, media player, content management system, or digital signage platform.
+- Instructions that name a feature without saying where the reader is likely to find it or what it will do.
+- Phrases such as “simply” or “just” when a step may be unfamiliar.
 - Long scene-setting introductions.
 - Claims about compatibility, integrations, pricing, performance, or results unless supplied and approved.
 - Invented quotations, statistics, case studies, or citations.
@@ -253,5 +278,6 @@ Before returning a draft, confirm that:
 - [ ] FAQ, Related Guides, and CTA blocks were not written into the main body.
 - [ ] FAQ and related-guide recommendations are supplied separately.
 - [ ] British English, short paragraphs, and plain language are used consistently.
+- [ ] Necessary technical terms are explained using familiar actions, and unnecessary technical terms are removed.
+- [ ] Instructions do not assume the reader understands browsers, file formats, casting, mirroring, cloud storage, or Smart TV file support.
 - [ ] Publishing details and any missing-input flags are included.
-

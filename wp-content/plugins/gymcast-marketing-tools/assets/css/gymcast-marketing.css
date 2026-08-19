@@ -4,6 +4,12 @@
 	padding-inline: 1rem;
 }
 
+/* Hide the theme's author/byline row on Gymcast resource articles only. */
+body:has(.gc-resource-article) .wp-block-group:has(> .wp-block-post-author-name),
+body:has(.gc-resource-article) .wp-block-group:has(> .wp-block-post-author) {
+	display: none;
+}
+
 .gc-resource-article > * + * {
 	margin-block-start: 1.4rem;
 }

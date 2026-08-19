@@ -8,7 +8,7 @@ Delete all instructional text in square brackets before publication.
 
 - **Working topic:** [Topic]
 - **Primary search topic:** [Main phrase or question]
-- **Intended reader:** [Specific Gymcast audience]
+- **Intended reader:** [Specific gym owner or operator; capable with everyday technology but not assumed to know technical terminology]
 - **Reader's problem:** [What they need to decide, understand, or do]
 - **Article goal:** [What the reader should know or be able to do afterward]
 - **Desired next action:** [For example, choose an approach or book a demo]
@@ -108,9 +108,10 @@ Delete all instructional text in square brackets before publication.
 - [ ] H2 headings are unique and descriptive.
 - [ ] The direct answer appears early.
 - [ ] Advice is practical and balanced.
+- [ ] Necessary technical terms are explained in simple language using familiar actions.
+- [ ] The draft does not assume knowledge of browsers, file formats, casting, mirroring, cloud storage, or Smart TV file support.
 - [ ] Gymcast claims are verified.
 - [ ] No sources, URLs, statistics, or product details were invented.
 - [ ] FAQ, Related Guides, and final CTA are excluded from the main body.
 - [ ] Publishing notes and recommendations are complete.
 - [ ] British English is used throughout.
-

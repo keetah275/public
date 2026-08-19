@@ -151,7 +151,12 @@ function gymcast_marketing_tools_render_faq_section( $attributes, $content, $blo
  * @return string
  */
 function gymcast_marketing_tools_render_legacy_faq( $block_content, $block ) {
-	if ( 'core/group' === $block['blockName'] && false !== strpos( $block_content, 'gc-faq' ) ) {
+	$class_name = isset( $block['attrs']['className'] ) ? $block['attrs']['className'] : '';
+
+	if (
+		'core/group' === $block['blockName'] &&
+		in_array( 'gc-faq', preg_split( '/\s+/', $class_name ), true )
+	) {
 		return gymcast_marketing_tools_render_faq_section( array(), '', null );
 	}
 	return $block_content;

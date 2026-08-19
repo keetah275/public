@@ -193,9 +193,11 @@ function gymcast_marketing_tools_render_related_guides( $attributes, $content, $
  * @return string
  */
 function gymcast_marketing_tools_render_legacy_related_guides( $block_content, $block ) {
+	$class_name = isset( $block['attrs']['className'] ) ? $block['attrs']['className'] : '';
+
 	if (
 		'core/group' === $block['blockName'] &&
-		false !== strpos( $block_content, 'gc-related-guides' )
+		in_array( 'gc-related-guides', preg_split( '/\s+/', $class_name ), true )
 	) {
 		return gymcast_marketing_tools_render_related_guides( array(), '', null );
 	}
