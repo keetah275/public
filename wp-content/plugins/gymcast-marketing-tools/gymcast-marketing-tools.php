@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gymcast Marketing Tools
  * Description: Site-specific Gutenberg patterns and styling for Gymcast marketing resources.
- * Version: 0.4.2
+ * Version: 0.4.4
  * Author: Gymcast
  * Text Domain: gymcast-marketing-tools
  */
@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GYMCAST_MARKETING_TOOLS_VERSION', '0.4.2' );
+define( 'GYMCAST_MARKETING_TOOLS_VERSION', '0.4.4' );
 define( 'GYMCAST_MARKETING_TOOLS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'GYMCAST_MARKETING_TOOLS_URL', plugin_dir_url( __FILE__ ) );
 

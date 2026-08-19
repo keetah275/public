@@ -87,7 +87,8 @@ function gymcast_marketing_tools_assign_resource_categories( $post_id, $post ) {
 
 	$categories = gymcast_marketing_tools_get_resource_category_ids();
 	if ( ! empty( $categories ) ) {
-		wp_set_post_categories( $post_id, array_values( $categories ), true );
+		// Resource Guides belong only to the Resources > Guide hierarchy.
+		wp_set_post_categories( $post_id, array_values( $categories ), false );
 	}
 }
 add_action( 'save_post', 'gymcast_marketing_tools_assign_resource_categories', 20, 2 );

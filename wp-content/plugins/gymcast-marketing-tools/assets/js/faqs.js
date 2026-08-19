@@ -20,7 +20,7 @@
 		category: 'widgets',
 		attributes: {
 			manualPostIds: { type: 'array', default: [], items: { type: 'number' } },
-			automaticMatching: { type: 'boolean', default: true }
+			automaticMatching: { type: 'boolean', default: false }
 		},
 		supports: { html: false, reusable: false },
 		edit: function ( props ) {

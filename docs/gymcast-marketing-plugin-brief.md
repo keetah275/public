@@ -164,9 +164,9 @@ group. It must update when headings are added, renamed, removed, or reordered,
 and must link to unique heading anchors. Headings in the FAQ, related guides,
 and final CTA are excluded.
 
-FAQ section
-
 Related guides
+
+FAQ section (optional; automatic tag matching is off by default)
 
 Final CTA
 ```
@@ -248,7 +248,7 @@ the post body as the answer. The block displays up to four FAQs in this order:
 
 1. Manually selected FAQs, in the editor-defined order.
 2. FAQ posts ranked by tags shared with the current resource article, when
-   automatic matching is enabled.
+   automatic matching is explicitly enabled.
 
 The current post is excluded and the entire FAQ section is omitted when no
 manual or shared-tag matches exist. The plugin creates the FAQ category when it

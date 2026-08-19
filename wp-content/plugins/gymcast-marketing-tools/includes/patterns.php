@@ -187,9 +187,9 @@ function gymcast_marketing_tools_get_resource_guide_pattern() {
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-' . gymcast_marketing_tools_get_faq_section_pattern() . '
-
 ' . gymcast_marketing_tools_get_related_guides_pattern() . '
+
+' . gymcast_marketing_tools_get_faq_section_pattern() . '
 
 ' . gymcast_marketing_tools_get_article_cta_pattern() . '</div>
 <!-- /wp:group -->';

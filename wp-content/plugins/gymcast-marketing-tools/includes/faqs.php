@@ -126,7 +126,7 @@ function gymcast_marketing_tools_get_faq_ids( $post_id, $manual_post_ids = array
  */
 function gymcast_marketing_tools_render_faq_section( $attributes, $content, $block = null ) {
 	$post_id   = $block && isset( $block->context['postId'] ) ? (int) $block->context['postId'] : (int) get_the_ID();
-	$automatic = ! isset( $attributes['automaticMatching'] ) || (bool) $attributes['automaticMatching'];
+	$automatic = isset( $attributes['automaticMatching'] ) && (bool) $attributes['automaticMatching'];
 	$ids       = gymcast_marketing_tools_get_faq_ids( $post_id, $attributes['manualPostIds'] ?? array(), $automatic, 4 );
 
 	if ( empty( $ids ) ) {
@@ -182,7 +182,7 @@ function gymcast_marketing_tools_register_faq_block() {
 			'api_version'     => 3,
 			'attributes'      => array(
 				'manualPostIds'    => array( 'type' => 'array', 'default' => array(), 'items' => array( 'type' => 'number' ) ),
-				'automaticMatching' => array( 'type' => 'boolean', 'default' => true ),
+				'automaticMatching' => array( 'type' => 'boolean', 'default' => false ),
 			),
 			'uses_context'    => array( 'postId', 'postType' ),
 			'editor_script'   => 'gymcast-marketing-tools-faq-editor',
