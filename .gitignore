@@ -6,6 +6,8 @@
 !/docs/
 /docs/*
 !/docs/gymcast-marketing-plugin-brief.md
+!/docs/gymcast-article-writing-guide.md
+!/docs/gymcast-article-template.md
 
 # Track only the Gymcast plugin within wp-content.
 !/wp-content/

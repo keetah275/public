@@ -34,6 +34,19 @@ The plugin should:
 6. Avoid creating custom post types for now.
 7. Avoid over-engineering.
 
+## Documentation Maintenance
+
+The following authoring documents must be kept in sync with the plugin's article patterns and publishing workflow:
+
+```text
+docs/gymcast-article-writing-guide.md
+docs/gymcast-article-template.md
+```
+
+Any future change that affects the structure, behaviour, terminology, required metadata, dynamic sections, comparison tables, FAQs, related guides, CTA, or expected authoring output of a Gymcast resource article must include the corresponding updates to both documents where applicable.
+
+Documentation updates are part of completing the related plugin change, not a separate follow-up task.
+
 ## Non-goals
 
 Do not build:
