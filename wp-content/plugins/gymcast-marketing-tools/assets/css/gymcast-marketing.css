@@ -6,7 +6,10 @@
 
 /* Hide the theme's author/byline row on Gymcast resource articles only. */
 body:has(.gc-resource-article) .wp-block-group:has(> .wp-block-post-author-name),
-body:has(.gc-resource-article) .wp-block-group:has(> .wp-block-post-author) {
+body:has(.gc-resource-article) .wp-block-group:has(> .wp-block-post-author),
+body:has(.gc-resource-article) .wp-block-post-author-name,
+body:has(.gc-resource-article) .wp-block-post-author,
+body:has(.gc-resource-article) .taxonomy-post_tag {
 	display: none;
 }
 

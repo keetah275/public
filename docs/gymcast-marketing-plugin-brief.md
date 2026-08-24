@@ -173,6 +173,12 @@ Final CTA
 
 Suggested placeholder copy should be specific enough to guide writing, but easy to replace.
 
+Resource Guides expose an optional **Gymcast SEO** panel in the Gutenberg
+document sidebar with fields for a meta title and meta description. When set,
+the title replaces WordPress's generated document title and the description is
+output as a `<meta name="description">` tag. Empty fields leave WordPress's
+normal title behavior unchanged and output no description tag.
+
 Use normal core blocks only:
 
 - Group

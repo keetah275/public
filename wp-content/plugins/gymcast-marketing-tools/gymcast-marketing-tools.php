@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gymcast Marketing Tools
  * Description: Site-specific Gutenberg patterns and styling for Gymcast marketing resources.
- * Version: 0.4.4
+ * Version: 0.5.1
  * Author: Gymcast
  * Text Domain: gymcast-marketing-tools
  */
@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GYMCAST_MARKETING_TOOLS_VERSION', '0.4.4' );
+define( 'GYMCAST_MARKETING_TOOLS_VERSION', '0.5.1' );
 define( 'GYMCAST_MARKETING_TOOLS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'GYMCAST_MARKETING_TOOLS_URL', plugin_dir_url( __FILE__ ) );
 
@@ -19,6 +19,7 @@ require_once GYMCAST_MARKETING_TOOLS_PATH . 'includes/patterns.php';
 require_once GYMCAST_MARKETING_TOOLS_PATH . 'includes/schema.php';
 require_once GYMCAST_MARKETING_TOOLS_PATH . 'includes/related-guides.php';
 require_once GYMCAST_MARKETING_TOOLS_PATH . 'includes/faqs.php';
+require_once GYMCAST_MARKETING_TOOLS_PATH . 'includes/seo-meta.php';
 
 /**
  * Register the automatic table of contents block used by resource guides.
@@ -190,6 +191,38 @@ function gymcast_marketing_tools_sync_resource_guide_toc( $block_content, $block
 	return $output;
 }
 add_filter( 'render_block', 'gymcast_marketing_tools_sync_resource_guide_toc', 20, 2 );
+
+/**
+ * Hide theme-provided author and tag blocks on Resource Guide pages.
+ *
+ * @param string $block_content Rendered block markup.
+ * @param array  $block         Parsed block data.
+ * @return string
+ */
+function gymcast_marketing_tools_hide_resource_post_meta( $block_content, $block ) {
+	if ( ! is_singular( array( 'post', 'page' ) ) ) {
+		return $block_content;
+	}
+
+	$post = get_queried_object();
+	if ( ! $post instanceof WP_Post || ! gymcast_marketing_tools_is_resource_article( $post ) ) {
+		return $block_content;
+	}
+
+	if ( in_array( $block['blockName'], array( 'core/post-author', 'core/post-author-name' ), true ) ) {
+		return '';
+	}
+
+	if (
+		'core/post-terms' === $block['blockName'] &&
+		'post_tag' === ( $block['attrs']['term'] ?? '' )
+	) {
+		return '';
+	}
+
+	return $block_content;
+}
+add_filter( 'render_block', 'gymcast_marketing_tools_hide_resource_post_meta', 30, 2 );
 
 /**
  * Normalise the main-content Group wrapper to Gutenberg's canonical markup.
